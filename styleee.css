@@ -134,16 +134,18 @@ span{
     border-radius: 50%;
 }
 
-.home-img img{
-    position: relative;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
-    cursor: pointer;
-    transition: 0.2s linear;
+.home-img video{
+    position: center;
+    width: 400px; 
+    height: 550px;
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    margin: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
 }
 
-.home-img img:hover{
+.home-img video:hover{
     font-size: 1.8rem;
     font-weight: 500;
 }
